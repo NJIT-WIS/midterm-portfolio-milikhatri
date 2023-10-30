@@ -1,0 +1,22 @@
+{
+  "name": "midterm-portfolio-milikhatri",
+  "version": "1.0.0",
+  "description": "This is my individual project for class using node, playwright, and git",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NJIT-WIS/midterm-portfolio-milikhatri.git"
+  },
+  "keywords": [
+    "midterm"
+  ],
+  "author": "Mili Khatri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NJIT-WIS/midterm-portfolio-milikhatri/issues"
+  },
+  "homepage": "https://github.com/NJIT-WIS/midterm-portfolio-milikhatri#readme"
+}
