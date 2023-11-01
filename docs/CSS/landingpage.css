@@ -338,3 +338,15 @@ input {
         margin: 20px 0; /* Add margin to separate it from the container */
     }
 }
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    background-color: #9B59B6;
+    text-align: center;
+    min-height: fit-content;
+    max-height: fit-content;
+    padding: 1px;
+}
