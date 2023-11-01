@@ -326,3 +326,15 @@ input {
 #designText {
     margin-bottom: 50px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .image-content3 {
+        margin: 20px 0; /* Add margin to separate it from the container */
+    }
+}
