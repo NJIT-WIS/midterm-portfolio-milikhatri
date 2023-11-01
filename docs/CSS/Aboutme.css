@@ -39,3 +39,50 @@ body {
     justify-content: flex-end;
     /* Align items in the menu to the right */
 }
+
+@media (min-width: 769px) {
+    .menu-button {
+        display: none;
+        /* Hide the menu button in desktop view */
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        /* Hide the menu items by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        /* Adjust the top position as needed to align with the navbar */
+        right: 0;
+        background-color: #fff;
+        /* Background color for the dropdown */
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+        /* Add a shadow for the dropdown */
+        z-index: 1;
+        /* Ensure the dropdown is on top of other content */
+    }
+
+    .menu-button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 24px;
+        /* Adjust the font size as needed */
+        margin-right: 10px;
+        /* Add some spacing between the button and logo */
+    }
+
+    .menu-button::after {
+        content: '▼';
+        /* Display a down arrow to indicate the dropdown */
+        margin-left: 10px;
+        /* Adjust the spacing as needed */
+    }
+
+    .menu-open .menu {
+        display: flex;
+        /* Show the menu items when the button is clicked */
+    }
+}
