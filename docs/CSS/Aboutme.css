@@ -291,3 +291,47 @@ body {
     flex-direction: column;
     /* Adjust the space between skills as needed */
 }
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 65px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        /* Adjust the space between elements as needed */
+    }
+
+    .rectangleMain,
+    .rectangleSecond {
+        width: 75%;
+        /* Take up the full width */
+    }
+
+    #rightArrowTop {
+        transform: rotate(90deg);
+        /* Rotate the image 90 degrees clockwise */
+        margin-top: 0;
+        /* Adjust the margin as needed */
+    }
+
+    .skills-container-lang {
+        justify-content: center;
+        /* Center the skills container horizontally */
+    }
+
+    #rightArrowDown {
+        transform: rotate(90deg);
+        /* Rotate the image 90 degrees clockwise */
+        margin-top: 0;
+        /* Adjust the margin as needed */
+    }
+
+    .skills-container {
+        justify-content: center;
+    }
+
+}
