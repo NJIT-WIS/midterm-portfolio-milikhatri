@@ -417,3 +417,36 @@ body {
     margin-block-end: 0em;
     margin-bottom: 15px;
 }
+
+@media (max-width: 768px) {
+    .contentTwo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center !important;
+        gap: 20px;
+        /* Adjust the space between elements as needed */
+    }
+
+    .rectangleTwo {
+        order: 1;
+        /* Place rectangleTwo first */
+        width: 75%;
+        /* Take up the full width */
+    }
+
+    #leftArrow {
+        order: 2;
+        /* Place the leftArrow second */
+        transform: rotate(-90deg);
+        /* Rotate the image 90 degrees counterclockwise */
+        margin-top: 0;
+        /* Adjust the margin as needed */
+    }
+
+    .rectangle {
+        order: 3;
+        /* Place the rectangle (originally rectangleMain) third */
+        width: 75%;
+        /* Take up the full width */
+    }
+}
