@@ -554,3 +554,10 @@ footer {
     max-height: fit-content;
     padding: 1px;
 }
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 18px;
+        /* Adjust the font size for smaller screens */
+    }
+}
