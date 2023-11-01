@@ -126,3 +126,37 @@ body {
     text-decoration: none;
     margin-right: 10px; 
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center; /* Center horizontally on small screens */
+        text-align: center; /* Center text horizontally on small screens */
+    }
+    .image-content {
+        margin: 0; /* Reset margin on small screens */
+    }
+    #mainPic {
+        width: 80%; /* Make the image responsive to the container width */
+        height: auto;
+        max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    }
+    .hero h1 {
+        font-size: 60px; /* Reduce the font size for smaller screens */
+    }
+    .sub-text {
+        font-size: 24px; /* Reduce the font size for smaller screens */
+        margin-bottom: 10px; /* Adjust margin for smaller screens */
+    }
+    .button-filled {
+        margin-top: 10px; /* Adjust top margin for smaller screens */
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+        border-radius: 25px; /* Reduce border-radius for smaller screens */
+        margin-right: 0; /* Reset margin for smaller screens */
+        font-size: 18px; /* Reduce font size for smaller screens */
+    }
+    .links a {
+        font-size: 2rem; /* Reduce font size for smaller screens */
+        margin-right: 5px; /* Adjust margin for smaller screens */
+    }
+}
