@@ -255,3 +255,74 @@ body {
         margin-right: 0 !important;
     }
 }
+
+.envelope-text {
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-right: 36px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+input {
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.emailIn {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #0071A7;
+    border-right: 30px;
+    margin-right: 35px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F1C40F;
+    color: black;
+    border-right: 30px;
+    margin-right: 35px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.image-content3 {
+    text-align: center;
+}
+
+#topDesign {
+    margin-top: 35px;
+}
+
+.sub-text2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#designText {
+    margin-bottom: 50px;
+}
