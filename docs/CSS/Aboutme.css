@@ -530,3 +530,15 @@ body {
     font-weight: 500;
     font-size: 13px;
 }
+
+@media (max-width: 768px) {
+
+    .footer-container {
+        display: flex;
+        padding: 1em;
+        /* Adjust padding as needed */
+        justify-content: space-between;
+        padding-left: 4em;
+
+    }
+}
