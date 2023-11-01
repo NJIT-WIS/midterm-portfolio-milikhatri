@@ -160,3 +160,53 @@ body {
         margin-right: 5px; /* Adjust margin for smaller screens */
     }
 }
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.signUp {
+    flex: 1;
+}
+
+.drawing {
+    flex: 1;
+}
+
+.drawing {
+    position: relative;
+    width: 696px;
+    height: 696px;
+    margin-right: 15%;
+}
+
+.circles {
+    width: 696px;
+    height: 696px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.rounded-image {
+    display: block;
+    width: 696px;
+    height: 696px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 696px;
+    height: 696px;
+    border-radius: 50%;
+    background-color: #2ECC71;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+}
