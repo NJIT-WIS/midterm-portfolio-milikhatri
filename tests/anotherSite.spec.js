@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-const websiteURL = 'file:///Users/milikhatri/Documents/IS218/midterm-portfolio-milikhatri/docs/index.html';
+const websiteURL = 'file:///Users/milikhatri/Documents/IS218/midterm-portfolio-milikhatri/docs/Aboutme.html';
 
 const expectedFirstProject = "Design Apps/Websites";
 const expectedFirstSkillsNotEmpty = ""
@@ -23,12 +23,12 @@ test('Check Hero Content', async ({ page }) => {
 
 test('Check First Project', async ({ page }) => {
     await page.goto(websiteURL);
-    expect(await page.locator('.container .content .rectangleMain h1').textContent()).toBe(expectedFirstProject);
+    expect(await page.locator('.container .content .rectangleMain #first').textContent()).toBe(expectedFirstProject);
 });
 
 test('Check First Skills', async ({ page }) => {
     await page.goto(websiteURL);
-    expect(await page.locator('.content .rectangleSecond').textContent()).toBe(expectedFirstSkillsNotEmpty);
+    expect(await page.locator('.content .rectangleSecond #firstSkills').textContent()).not.toBe(expectedFirstSkillsNotEmpty);
 });
 
 test('Check Links in Skills', async ({ page }) => {
@@ -44,7 +44,7 @@ test('Check Second Project', async ({ page }) => {
 
 test('Check Second Skills', async ({ page }) => {
     await page.goto(websiteURL);
-    expect(await page.locator('.contentTwo .rectangle h1').textContent()).toBe(expectedSecondSkillsNotEmpty);
+    expect(await page.locator('.contentTwo .rectangle h1').textContent()).not.toBe(expectedSecondSkillsNotEmpty);
 });
 
 test('Check Links in Second Skills Rectangle', async ({ page }) => {
@@ -55,12 +55,12 @@ test('Check Links in Second Skills Rectangle', async ({ page }) => {
 
 test('Check Third Project', async ({ page }) => {
     await page.goto(websiteURL);
-    expect(await page.locator('.content .rectangleMain h1').textContent()).toBe(expectedThirdProject);
+    expect(await page.locator('.content .rectangleMain #third').textContent()).toBe(expectedThirdProject);
 });
 
 test('Check Third Skills', async ({ page }) => {
     await page.goto(websiteURL);
-    expect(await page.locator('.content .rectangleSecond h1').textContent()).toBe(expectedThirdSkillsNotEmpty);
+    expect(await page.locator('.content .rectangleSecond #thirdSkills').textContent()).not.toBe(expectedThirdSkillsNotEmpty);
 });
 
 test('Check Links in Third Skills Rectangle', async ({ page }) => {
