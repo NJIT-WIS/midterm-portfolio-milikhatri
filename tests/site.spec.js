@@ -13,6 +13,7 @@ const expectedCopyrightText = "&copy; Copyright 2023 | All Rights Reserved | Web
 
 
 test('Check Logo in NavBar', async ({ page }) => {
+  await page.goto('index.html');
   const logoText = await page.locator('.logo').textContent();
   expect(logoText).toBe(expectedLogoText);
 });
