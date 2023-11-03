@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-const websiteURL = 'file:///Users/milikhatri/Documents/IS218/midterm-portfolio-milikhatri/docs/index.html';
+const websiteURL = 'http://localhost:3000';
 
 const expectedLogoText = "MK";
 const expectedMenuItemCount = 3;
