@@ -4,7 +4,8 @@
   "description": "This is my individual project for class using node, playwright, and git",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "test2": "npm run start"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/NJIT-WIS/midterm-portfolio-milikhatri/issues"
   },
-  "homepage": "https://github.com/NJIT-WIS/midterm-portfolio-milikhatri#readme"
+  "homepage": "https://github.com/NJIT-WIS/midterm-portfolio-milikhatri#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.9"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
