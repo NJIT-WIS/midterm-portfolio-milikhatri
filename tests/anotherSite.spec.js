@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-const websiteURL = 'http://localhost:3000';
+const websiteURL = 'http://localhost:3000/Aboutme.html';
 
 const expectedFirstProject = "Design Apps/Websites";
 const expectedFirstSkillsNotEmpty = ""
