@@ -118,3 +118,12 @@ The site’s visual appearance will be evaluated on whether or not the design lo
 
 5. **Final Check**
    - Double-check all links, ensure the website is accessible from GitHub Pages, and verify the Figma image in the README.
+
+![Desktop - 4](https://github.com/NJIT-WIS/midterm-portfolio-milikhatri/assets/124195176/71ec9cbe-e637-4456-aef1-5ee476ef0fc4)
+
+![Desktop - 3](https://github.com/NJIT-WIS/midterm-portfolio-milikhatri/assets/124195176/667ebf94-fc41-4d2d-981e-2b123e74b6a7)
+
+Link to live Website: [Link](https://njit-wis.github.io/midterm-portfolio-milikhatri/index.html)
+
+
+
